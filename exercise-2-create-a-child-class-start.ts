@@ -55,7 +55,7 @@ class DetailedCurrency extends Currency {
 
         // Replace `null` with the value of the `banknotes` field.
 
-        description += null;
+        description += this.banknotes;
 
         console.log(description);
     }
