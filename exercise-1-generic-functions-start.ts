@@ -6,7 +6,7 @@
 // This should fix the type errors on Line 13 and 15.
 // Hint: The type for the `value` function parameter should use a type variable.
 
-function identity<example>(value: example): example {
+function identity<Type>(value: Type): Type {
     return value;
 }
 
