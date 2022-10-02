@@ -6,9 +6,9 @@
 // This should fix the type errors on Lines 14 and 21.
 // Hint: The type for the `languages` property should use a type variable.
 
-interface Country<type> {
+interface Country<Type> {
     name: string;
-    languages: type;
+    languages: Type;
 }
 
 const languagesObj1: Country<string> = {
